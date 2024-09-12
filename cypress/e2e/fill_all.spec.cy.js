@@ -5,7 +5,7 @@ const testData = require("../fixtures/form_data.json");
 describe("Web Form Filling", () => {
   beforeEach(() => {
     // Visit the web form page only once before the test suite
-    cy.visit("http://127.0.0.1:5500/entrega_p2/projeto/index.html");
+    cy.visit("http://127.0.0.1:8080/cylab/http/test01/index.html");
   });
 
   it(`Fill and submit the form for each data set`, async () => {
